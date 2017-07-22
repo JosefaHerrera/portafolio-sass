@@ -4,6 +4,13 @@ body{
     color:$color_txt_base;
 }
 
+/*general*/
+.container{
+ background-color: $color-container;
+ -webkit-box-shadow: 3px -1px 28px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -1px 28px -2px rgba(0,0,0,0.75);
+box-shadow: 3px -1px 28px -2px rgba(0,0,0,0.75);
+}
 
 /*Navbar*/
 /*slider*/
