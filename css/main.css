@@ -5813,7 +5813,39 @@ body {
   box-shadow: 3px -1px 28px -2px rgba(0, 0, 0, 0.75); }
 
 /*Navbar*/
+#navbar {
+  background-color: transparent;
+  border-color: transparent;
+  z-index: 1;
+  width: 100%; }
+
+.navbar-default .navbar-nav li > a {
+  color: white; }
+  .navbar-default .navbar-nav li > a .glyphicon {
+    margin-right: 5px; }
+.navbar-default .navbar-nav .btn-navbar {
+  background-color: #e91e63;
+  margin-top: 7px;
+  color: white;
+  height: 50px;
+  border-radius: 5px; }
+.navbar-default .navbar-brand {
+  color: white; }
+
 /*slider*/
+.carousel-caption {
+  left: 20%;
+  right: 20%;
+  padding-bottom: 330px; }
+  .carousel-caption .btn-page {
+    background-color: #e91e63;
+    margin-top: 7px;
+    color: white;
+    height: 50px;
+    border-radius: 5px; }
+  .carousel-caption h3 {
+    margin-bottom: 40px; }
+
 /*Section 1 */
 /*Section 2 */
 .section2 img {
