@@ -1,7 +1,9 @@
+//funciones
 @mixin buttonpage() {
     background-color: $color-btn;
     margin-top: 7px;
     color: white;
     height: 50px;
     border-radius: 5px;
+    padding: 20px;
 }
