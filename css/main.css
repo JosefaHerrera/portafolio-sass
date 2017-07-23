@@ -5801,6 +5801,9 @@ button.close {
 /*aquí se realizan las variables generales que se ocuparan en la pagina*/
 /*pueden haber cambios de variables y orden en _bases.scss*/
 /*aquí se hace el codigo general como lo hariamos en css normal*/
+* {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif; }
+
 body {
   background-color: #e4e4e4;
   color: #999999; }
@@ -5821,7 +5824,8 @@ body {
   background-color: transparent;
   border-color: transparent;
   z-index: 1;
-  width: 100%; }
+  width: 100%;
+  position: fixed; }
 
 .navbar-default .navbar-nav li > a {
   color: white; }
@@ -5891,6 +5895,46 @@ body {
     border: 2px solid whitesmoke; }
 
 /*Section 3 */
+.section3 {
+  margin-top: -18px; }
+  .section3 .text-products {
+    padding: 80px; }
+  .section3 h5 {
+    color: gray; }
+  .section3 p {
+    margin-top: 30px;
+    color: #e82a69;
+    cursor: pointer; }
+  .section3 h4 {
+    color: #3c4757; }
+  .section3 h5 {
+    line-height: 25px; }
+  .section3 .glyphicon {
+    cursor: pointer; }
+  .section3 .content-models {
+    padding-bottom: 20px; }
+  .section3 .photo-container {
+    padding: 15px;
+    background-color: whitesmoke; }
+    .section3 .photo-container img {
+      border-radius: 5px;
+      margin-top: -40px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      transition: all .2s ease-in-out; }
+    .section3 .photo-container img:hover {
+      cursor: pointer;
+      margin-top: -55px;
+      -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+      -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+      box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61); }
+  .section3 .photo-info {
+    margin-top: -10px;
+    position: relative;
+    padding: 25px;
+    background-color: whitesmoke; }
+  .section3 .product-wrapper {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
 /*portafolio*/
 .portafolio .portafolio-img {
   margin-top: 30px; }
@@ -5902,7 +5946,47 @@ body {
   padding-top: 20px; }
 
 /*Section 4 */
+.section4 h1 {
+  color: #3c4858;
+  margin-top: 17%;
+  margin-bottom: 2%; }
+.section4 h4 {
+  color: #3c4858; }
+.section4 h6 {
+  margin-bottom: 20px; }
+.section4 .sub {
+  margin-bottom: 80px; }
+.section4 img {
+  margin-bottom: 52%;
+  -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+  -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+  box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61); }
+
 /*Section 5 */
+.section5 {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .section5 .content-active {
+    background-color: white;
+    border-radius: 10px;
+    height: 600px;
+    -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61); }
+  .section5 .content-cost .money {
+    font-size: 100px; }
+  .section5 .content-cost .money-symbol {
+    margin-bottom: 50px;
+    position: absolute; }
+  .section5 .button-buy-wrapper {
+    margin-top: 50px; }
+    .section5 .button-buy-wrapper .btn-buy {
+      background-color: #e84d88;
+      color: white;
+      padding: 20px;
+      border-radius: 5px; }
+
 /*Section 6 */
 .section6 {
   margin-top: 60px;
@@ -5917,8 +6001,45 @@ body {
     color: #3c4858; }
 
 /*Section 7 */
+.section7 {
+  background-image: url(../img/about.jpg);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .section7 .title-subscribe {
+    color: white;
+    padding-top: 80px; }
+  .section7 .subtitle-subscribe {
+    color: white;
+    padding-bottom: 80px; }
+  .section7 .btn-subscribe {
+    background-color: #e91e63;
+    margin-top: 7px;
+    color: white;
+    border-radius: 5px;
+    border: #e91e63;
+    cursor: pointer; }
+
 /*Section 8 */
+.section8 {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
 /*Section 9 */
+.section9 {
+  background-color: #313336;
+  padding-top: 20px; }
+  .section9 .title-footer {
+    color: whitesmoke; }
+  .section9 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer; }
+  .section9 .blanco {
+    colot: whitesmoke; }
+
 /*Section 10 */
+.section10 {
+  background-color: #313336; }
 
 /*# sourceMappingURL=main.css.map */

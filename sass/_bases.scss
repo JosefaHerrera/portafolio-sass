@@ -1,4 +1,7 @@
 /*aquí se hace el codigo general como lo hariamos en css normal*/
+* {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
 body{
     background-color: $fondo_detras_container;
     color:$color_txt_base;
@@ -20,6 +23,8 @@ body{
     border-color: $color-navbar;
     z-index: 1;
     width: $full-width;
+    position: fixed;
+
 }
 
 
@@ -106,6 +111,57 @@ body{
     }
 }
 /*Section 3 */
+.section3 {
+    .text-products {
+        padding: 80px;
+    }
+    margin-top: -18px;
+    h5 {
+        color: gray;
+    }
+    p {
+        margin-top: 30px;
+        color: #e82a69;
+        cursor: pointer;
+    }
+    h4 {
+        color: #3c4757;
+    }
+    h5 {
+        line-height: 25px;
+    }
+    .glyphicon {
+        cursor: pointer;
+    }
+    .content-models {
+        padding-bottom: 20px;
+    }
+    .photo-container {
+        padding: 15px;
+        background-color: $blanco;
+        img {
+            border-radius: 5px;
+            margin-top: -40px;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            transition: all .2s ease-in-out;
+        }
+        img:hover {
+            cursor: pointer;
+            margin-top: -55px;
+            @include box-shadow();
+        }
+    }
+    .photo-info {
+        margin-top: -10px;
+        position: relative;
+        padding: 25px;
+        background-color: $blanco;
+    }
+    .product-wrapper {
+        @include wrapper-shadow();
+    }
+}
+
 /*portafolio*/
 .portafolio{
 	.portafolio-img{
@@ -119,7 +175,56 @@ body{
 	}
 }
 /*Section 4 */
+.section4{
+	h1{
+		color:$titulos-destacados;
+		margin-top: 17%;
+    	margin-bottom: 2%;
+	}
+	h4{
+		color:$titulos-destacados;
+	}
+	h6{
+		margin-bottom: 20px;
+	}
+		.sub{
+			margin-bottom: 80px;
+		}
+		img{
+			margin-bottom:52%;
+			@include box-shadow();
+		}
+}
 /*Section 5 */
+.section5 {
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .content-active {
+        background-color: white;
+        border-radius: 10px;
+        height: 600px;
+        @include box-shadow();
+    }
+    .content-cost {
+        .money {
+            font-size: 100px;
+        }
+        .money-symbol {
+            margin-bottom: 50px;
+            position: absolute;
+        }
+    }
+    .button-buy-wrapper {
+        margin-top: 50px;
+        .btn-buy {
+            background-color: #e84d88;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    }
+}
 /*Section 6 */
 .section6{
 	margin-top: 60px;
@@ -134,6 +239,50 @@ body{
 	}
 }
 /*Section 7 */
+.section7 {
+    background-image: url(../img/about.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .title-subscribe {
+        color: white;
+        padding-top: 80px;
+    }
+    .subtitle-subscribe {
+        color: white;
+        padding-bottom: 80px;
+    }
+    .btn-subscribe {
+        background-color: $color-btn;
+        margin-top: 7px;
+        color: white;
+        border-radius: 5px;
+        border: $color-btn;
+        cursor: pointer;
+    }
+}
 /*Section 8 */
+.section8{
+	margin-top: 60px;
+    margin-bottom: 60px;
+}
 /*Section 9 */
+.section9 {
+    background-color: $back-footer;
+    padding-top: 20px;
+    .title-footer {
+        color: $blanco;
+    }
+    img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .blanco{
+    	colot:$blanco;
+    }
+}
 /*Section 10 */
+.section10{
+	background-color:$back-footer;
+}
