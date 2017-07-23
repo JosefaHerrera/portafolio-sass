@@ -27,6 +27,14 @@ body{
 
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid grey;
+    width: 90%;
+}
+
 
 .navbar-default {
     .navbar-nav {
@@ -103,7 +111,6 @@ body{
     h1{
     	margin-top: 80px;
     	margin-bottom: 40px;
-    	color:$titulos-destacados;
     }
     iframe{
     	padding-bottom: 10px;
@@ -116,13 +123,14 @@ body{
         padding: 80px;
     }
     margin-top: -18px;
-    h5 {
-        color: gray;
-    }
+    
     p {
         margin-top: 30px;
         color: #e82a69;
         cursor: pointer;
+    }
+    h1{
+    	color:$titulos-destacados;
     }
     h4 {
         color: #3c4757;
@@ -173,6 +181,9 @@ body{
 	.row{
 		padding-top: 20px;
 	}
+	h1{
+		color:$titulos-destacados;
+	}
 }
 /*Section 4 */
 .section4{
@@ -180,9 +191,6 @@ body{
 		color:$titulos-destacados;
 		margin-top: 17%;
     	margin-bottom: 2%;
-	}
-	h4{
-		color:$titulos-destacados;
 	}
 	h6{
 		margin-bottom: 20px;
@@ -224,6 +232,9 @@ body{
             border-radius: 5px;
         }
     }
+    h1,.money{
+    	color:$titulos-destacados;
+    }
 }
 /*Section 6 */
 .section6{
@@ -241,7 +252,7 @@ body{
 /*Section 7 */
 .section7 {
     background-image: url(../img/about.jpg);
-    height: 60vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     .title-subscribe {
@@ -265,7 +276,73 @@ body{
 .section8{
 	margin-top: 60px;
     margin-bottom: 60px;
+    h1{
+    	color:$titulos-destacados;
+    }
 }
+
+/*contacto*/
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(../img/img_city.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        color: white;
+    }
+    h4 {
+        line-height: 25px;
+        color: white;
+    }
+    .text-icon {
+        color: white;
+        .icon-pin {
+            color: white;
+            padding: 5px;
+        }
+    }
+    .detail {
+        color: white;
+    }
+    .content-contact {
+        background-color: white;
+        padding: 50px;
+        border-radius: 10px;
+    }
+    .title-contact {
+        background-color: $color-btn;
+        color: white;
+        text-align: center;
+        margin-top: -70px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .form-text {
+        margin-bottom: 30px;
+    }
+    textarea {
+        border-radius: 7px;
+        border: 1px solid #e3e3e3;
+        resize: none;
+    }
+    .btn-send {
+        text-align: right;
+        margin-top: 30px;
+        .btn-send-ms {
+            background-color: $color-btn;
+            color: white;
+            height: 50px;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    }
+}
+
 /*Section 9 */
 .section9 {
     background-color: $back-footer;
@@ -285,4 +362,12 @@ body{
 /*Section 10 */
 .section10{
 	background-color:$back-footer;
+	footer {
+        .text-footer {
+            color: white;
+        }
+        .text-footer:hover {
+            color: $rosa;
+        }
+    }
 }
