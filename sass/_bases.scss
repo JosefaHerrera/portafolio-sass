@@ -57,6 +57,11 @@ hr {
         color: $color-text-nav
     }
 }
+
+.menu-color{
+	background-color:$blanco;
+	color:black;
+}
 /*slider*/
 .carousel-caption {
     left: $margin-carousel;
@@ -174,6 +179,7 @@ hr {
 .portafolio{
 	.portafolio-img{
 		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	img{
 		@include box-shadow();
@@ -183,6 +189,7 @@ hr {
 	}
 	h1{
 		color:$titulos-destacados;
+		    margin-top: 8%;
 	}
 }
 /*Section 4 */
@@ -202,6 +209,28 @@ hr {
 			margin-bottom:52%;
 			@include box-shadow();
 		}
+        .faceb {
+            color: $fbook;
+        }
+        .google {
+            color: $gplus;
+        }
+        .twitter {
+            color: $tuiter;
+        }
+        .linked {
+            color: $linkedin;
+        }
+        .pint {
+            color: $pinter;
+        }
+        .drib {
+            color: $dribbble;
+        }
+        .git {
+        	color: $github;
+        }
+    
 }
 /*Section 5 */
 .section5 {
@@ -252,7 +281,7 @@ hr {
 /*Section 7 */
 .section7 {
     background-image: url(../img/about.jpg);
-    height: 100%;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     .title-subscribe {
@@ -273,9 +302,27 @@ hr {
     }
 }
 /*Section 8 */
-.section8{
-	margin-top: 60px;
-    margin-bottom: 60px;
+.section8 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .img-blog {
+        @include box-shadow();
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    .text-fux {
+        color: $first-photos;
+    }
+    .text-cel {
+        color: $second-photos;
+    }
+    .text-oran {
+        color: $third-photos;
+    }
+    .read-more {
+        cursor: pointer;
+        color: #23527c;
+    }
     h1{
     	color:$titulos-destacados;
     }
@@ -356,7 +403,7 @@ hr {
         cursor: pointer;
     }
     .blanco{
-    	colot:$blanco;
+    	color:$blanco;
     }
 }
 /*Section 10 */
@@ -365,6 +412,7 @@ hr {
 	footer {
         .text-footer {
             color: white;
+            padding-left: 25px;
         }
         .text-footer:hover {
             color: $rosa;

@@ -5848,6 +5848,10 @@ hr {
 .navbar-default .navbar-brand {
   color: white; }
 
+.menu-color {
+  background-color: whitesmoke;
+  color: black; }
+
 /*slider*/
 .carousel-caption {
   left: 20%;
@@ -5943,7 +5947,8 @@ hr {
 
 /*portafolio*/
 .portafolio .portafolio-img {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 .portafolio img {
   -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
   -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
@@ -5951,7 +5956,8 @@ hr {
 .portafolio .row {
   padding-top: 20px; }
 .portafolio h1 {
-  color: #3c4858; }
+  color: #3c4858;
+  margin-top: 8%; }
 
 /*Section 4 */
 .section4 h1 {
@@ -5967,6 +5973,20 @@ hr {
   -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
   -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
   box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61); }
+.section4 .faceb {
+  color: #3B5998; }
+.section4 .google {
+  color: #DD4B39; }
+.section4 .twitter {
+  color: #55ACEE; }
+.section4 .linked {
+  color: #0976B4; }
+.section4 .pint {
+  color: #CC2127; }
+.section4 .drib {
+  color: #ED689C; }
+.section4 .git {
+  color: #333333; }
 
 /*Section 5 */
 .section5 {
@@ -6011,7 +6031,7 @@ hr {
 /*Section 7 */
 .section7 {
   background-image: url(../img/about.jpg);
-  height: 100%;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover; }
   .section7 .title-subscribe {
@@ -6030,8 +6050,23 @@ hr {
 
 /*Section 8 */
 .section8 {
-  margin-top: 60px;
-  margin-bottom: 60px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .section8 .img-blog {
+    -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    border-radius: 10px;
+    margin-top: 40px; }
+  .section8 .text-fux {
+    color: #e91e63; }
+  .section8 .text-cel {
+    color: #00bed4; }
+  .section8 .text-oran {
+    color: #f24438; }
+  .section8 .read-more {
+    cursor: pointer;
+    color: #23527c; }
   .section8 h1 {
     color: #3c4858; }
 
@@ -6096,13 +6131,14 @@ hr {
     margin-bottom: 20px;
     cursor: pointer; }
   .section9 .blanco {
-    colot: whitesmoke; }
+    color: whitesmoke; }
 
 /*Section 10 */
 .section10 {
   background-color: #313336; }
   .section10 footer .text-footer {
-    color: white; }
+    color: white;
+    padding-left: 25px; }
   .section10 footer .text-footer:hover {
     color: #e91e63; }
 
