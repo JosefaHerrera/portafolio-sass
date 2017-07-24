@@ -28,6 +28,13 @@ body{
     z-index: 1;
     width: $full-width;
     position: fixed;
+    .navbar-color {
+  width: 100%;
+  height: 78px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0; }
 
 }
 
@@ -62,10 +69,6 @@ hr {
     }
 }
 
-.menu-color{
-	background-color:$blanco;
-	color:black;
-}
 /*slider*/
 .carousel-caption {
     left: $margin-carousel;
