@@ -11,6 +11,10 @@ body{
 .container{
 	background-color: $color-container;
 	@include box-shadow();
+	position: relative;
+    margin-top: -104px;
+    border-radius: 13px;
+
 }
 
 .content {
@@ -176,22 +180,97 @@ hr {
 }
 
 /*portafolio*/
-.portafolio{
-	.portafolio-img{
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	img{
-		@include box-shadow();
-	}
-	.row{
-		padding-top: 20px;
-	}
+.portafolio {
+    background-color: white;
+    padding-top: 80px;
+    h4 {
+        margin-bottom: 80px;
+        color: gray;
+    }
+    // inicio para overlay
+    #box {
+        box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+        background: url(../img/img_portafolio_1.jpg);
+        background-size: cover;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    #box-1 {
+        background: url(../img/img_portafolio_2.jpg);
+        @extend #box;
+        border-radius:2%;
+    }
+    #box-2 {
+        background: url(../img/img_portafolio_3.jpg);
+        @extend #box;
+        border-radius:2%;
+    }
+    #box-3 {
+        background: url(../img/img_portafolio_4.jpg);
+        @extend #box;
+
+    }
+    #box-4 {
+        background: url(../img/img_portafolio_5.jpg);
+        @extend #box;
+        border-radius:2%;
+    }
+    #box-5 {
+        background: url(../img/img_portafolio_6.jpg);
+        @extend #box;
+        border-radius:2%;
+    }
+    #box-6 {
+        background: url(../img/img_portafolio_7.jpg);
+        @extend #box;
+        border-radius:2%;
+    }
+    #box-7 {
+        background: url(../img/img_portafolio_8.jpg);
+        @extend #box;
+        border-radius:2%;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, .60);
+        text-align: center;
+        padding: 41px 0 62px 0;
+        opacity: 0;
+        -webkit-transition: opacity .25s ease;
+        -moz-transition: opacity .25s ease;
+    }
+    #box:hover #overlay {
+        opacity: 1;
+    }
+    #plus {
+        font-weight: 900;
+        color: rgba(255, 255, 255, .85);
+        font-size: 89px;
+        .btn-fux {
+            background-color: $color-btn;
+            @include btn-photos();
+        }
+        .btn-blue {
+            background-color: $second-photos;
+            @include btn-photos();
+        }
+        .btn-orange {
+            background-color: $third-photos;
+            @include btn-photos();
+        }
+        h6 {
+            margin-bottom: -20px;
+            font-size: 20px;
+        }
+    }
+    .row{
+    	padding-bottom:20px;
+    }
 	h1{
 		color:$titulos-destacados;
-		    margin-top: 8%;
+		margin-top: 54%;
 	}
 }
+
 /*Section 4 */
 .section4{
 	h1{
